@@ -1,0 +1,28 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/leitner/Library/CloudStorage/OneDrive-FHTechnikumWien/WS 2022/Prozedurale Sprachen Labor/Zwischentest_1" -B "/Users/leitner/Library/CloudStorage/OneDrive-FHTechnikumWien/WS 2022/Prozedurale Sprachen Labor/Zwischentest_1/cmake-build-debug"
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- The C compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    /Library/Developer/CommandLineTools/usr/bin/cc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/leitner/Library/CloudStorage/OneDrive-FHTechnikumWien/WS 2022/Prozedurale Sprachen Labor/Zwischentest_1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/leitner/Library/CloudStorage/OneDrive-FHTechnikumWien/WS 2022/Prozedurale Sprachen Labor/Zwischentest_1/cmake-build-debug/CMakeFiles/CMakeError.log".
